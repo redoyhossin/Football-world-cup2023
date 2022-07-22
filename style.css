@@ -159,7 +159,7 @@ aside {
 
 
     background-color: rgb(0, 0, 0);
-   
+
     height: 240px;
     padding: 20px;
     border-radius: 10px;
@@ -179,7 +179,7 @@ aside {
     padding: 16px 30px;
     border-radius: 10px;
     text-align: center;
-    
+
 }
 
 .nav-cad a:hover {
@@ -188,8 +188,8 @@ aside {
 }
 
 
-.nav-cad a.active{
-    background:maroon;
+.nav-cad a.active {
+    background: maroon;
 }
 
 /*---------------------
@@ -344,7 +344,7 @@ footer {
 
 .footer-style {
     margin-top: 60px;
-    
+
 }
 
 ul {
@@ -416,7 +416,7 @@ footer section end
 
     }
 
-   
+
     .header-img {
         margin-top: 0px;
         height: 604px;
@@ -432,14 +432,15 @@ footer section end
     }
 
     .header-text h1 {
-        font-size:26px;
+        font-size: 26px;
 
 
     }
 
-    .nav-cad{
+    .nav-cad {
         margin-bottom: 60px;
     }
+
     .players {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -452,19 +453,26 @@ footer section end
 
     footer {
         height: 600px;
-        min-width:min-content;
+        min-width: min-content;
 
     }
 
     .footer-style ul {
         flex-direction: column;
-        justify-content: center;
-        justify-items: center;
         align-items: center;
     }
 
     .footer-style ul li {
-        margin-bottom: 16px;
+        margin-top: 8px;
+    }
+
+    .social-link ul li{
+       margin-bottom: 10px;
+    }
+    .social-link ul {
+        flex-direction: column;
+        align-items: center;
+
     }
 
 }

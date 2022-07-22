@@ -184,8 +184,10 @@ aside {
 }
 
 .nav-cad a:hover {
-    backgroud-color: rgba(69, 172, 29, 0.911);
+    background-color: rgba(49, 117, 22, 0.856);
+
     color: black;
+    
 }
 
 .nav-cad a.active{
@@ -313,7 +315,7 @@ footer {
 }
 
 .footer-style {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 ul {
@@ -330,7 +332,7 @@ ul li {
     font-size: 16px;
     font-weight: 500;
     list-style: none;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     color: white;
 
 }
@@ -435,14 +437,25 @@ footer section end
 
     .footer-style ul {
         flex-direction: column;
-        justify-content: center;
-        justify-items: center;
         align-items: center;
+       
+        
     }
 
     .footer-style ul li {
-        margin-bottom: 16px;
+        margin-top: 8px;
     }
+
+    .social-link ul li{
+        margin-bottom: 10px;
+     }
+
+    .social-link ul {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
 
 }
 
