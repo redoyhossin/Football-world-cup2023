@@ -1,0 +1,536 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* ------------
+  import google-font 
+ ---------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* ------------------------
+     header-section state
+  ---------- */
+
+.header-cad {
+    background-color: rgba(10, 10, 10, 0.918);
+    width: 90%;
+    height: 600px;
+    margin: 0% auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* ------------
+animation header cad state 
+-------------------*/
+
+
+.header-text h1 {
+    color: white;
+    font-size: 60px;
+
+}
+
+.header-text h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.header-text a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+
+.fa-solid {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.cad-button {
+
+    background-color: #4b33d4;
+    width: 155px;
+    padding: 16px 22px;
+    border-radius: 5px;
+
+}
+
+.cad-button:hover {
+
+    background-color: rgba(141, 30, 30, 0.822);
+    color: black;
+
+}
+
+#ellipsis {
+
+    width: 261px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ------------------
+ animation section state
+ ------------------------ */
+.header-img img {
+
+    margin-top: 103px;
+    height: 500px;
+
+
+}
+
+.header-img img {
+
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateX(+1.5rem);
+    }
+
+    50% {
+        transform: translateX(0rem);
+    }
+}
+
+
+
+/* ------------
+animation header end 
+-------------------*/
+
+
+
+/* ------------------------
+     header-section end
+  ---------- */
+
+
+/*-------------- 
+ aside section state 
+ ---------------------*/
+
+aside {
+    width: 90%;
+    margin-top: 100px;
+    margin: 0px auto;
+    margin-top: 140px;
+}
+
+aside {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+/*-------------- 
+ aside section state 
+ ---------------------*/
+
+
+
+/*---------------------
+  nav-cad-section state 
+  ---------------------------*/
+.nav-cad {
+
+    background-color: rgb(0, 0, 0);
+    height: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: fit-content;
+
+
+}
+
+.nav-cad a {
+    display: block;
+    background-color: rgb(90, 62, 25);
+    margin-bottom: 22px;
+    color: rgb(255, 239, 239);
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 16px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-cad a:hover {
+    backgroud-color: rgba(69, 172, 29, 0.911);
+    color: black;
+}
+
+.nav-cad a.active{
+    background:mediumslateblue;
+}
+
+/*---------------------
+  nav-cad-section end
+  ---------------------------*/
+
+
+/* players-section state */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem 1rem;
+    margin-bottom: 40px;
+
+}
+
+.player {
+    background-color: rgb(189, 172, 172);
+
+
+}
+
+.flag {
+    display: flex;
+    padding: 0px 10px;
+
+
+}
+
+.team-6 {
+    margin-top: 20px;
+    padding: 0px 6px;
+}
+
+.player img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.players .player {
+    background-color: rgb(252, 251, 251);
+    padding: 60px 20px;
+    box-shadow: 0px 0.6px 0.9px;
+    border-radius: 8px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+
+/* players-section end */
+
+
+ /*-------------- 
+ aside section end
+ ---------------------*/
+
+
+/*-------------------
+  view-section state 
+  -------------------*/
+
+
+.tab-view {
+
+    margin-top: 60px;
+}
+
+.View {
+    text-align: center;
+
+}
+
+.View a {
+    background-color: red;
+    padding: 20px 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    display: none;
+}
+
+
+/*-------------------
+  view-section end
+  -------------------*/
+
+
+/* -------------------
+footer section state
+-------------------- */
+
+
+
+footer {
+    height: 400px;
+    margin-top: 120px;
+    background-color: rgb(8, 8, 8);
+
+}
+
+.footer-header {
+    color: rgb(189, 124, 40);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+
+.h-r {
+    border: 0.2px solid rgb(68, 63, 63);
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 35px;
+
+}
+
+.footer-style {
+    margin-top: 60px;
+}
+
+ul {
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+
+
+
+}
+
+ul li {
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 50px;
+    color: white;
+
+}
+
+/*--------------- 
+social-link
+ --------------------*/
+
+.social-link {
+    margin-top: 35px;
+}
+
+.social-link ul li a {
+    color: white;
+
+}
+
+.fa-facebook {
+    font-size: 28px;
+}
+
+.fa-instagram {
+    font-size: 26px;
+}
+
+.fa-twitter {
+    font-size: 26px;
+}
+
+
+/* -------------------
+footer section end
+-------------------- */
+
+/*-----------------
+ media queries  
+ ----------------------*/
+
+ 
+/*----------------------------
+ Mobile devices 
+------------------------------*/
+
+
+@media only screen and (max-width: 688px) {
+
+    .header-cad {
+        background-color: rgba(146, 59, 44, 0.904);
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        /* width: 100%; */
+        min-width: min-content;
+        height: 100%;
+        padding-top: 30px;
+
+    }
+
+    
+    .flag {
+
+        justify-content: center;
+    }
+
+    .header-img {
+        margin-top: 0px;
+        height: 604px;
+
+    }
+
+.header-text h1{
+    font-size: 26px;
+
+}
+    .header-text h3 {
+        color: rgba(239, 241, 250, 0.979);
+        font-size:17px;
+    }
+
+    .nav-cad a {
+        text-align: center;
+    }
+
+    .nav-cad{
+        margin-bottom: 60px;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    aside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    footer {
+        height: 600px;
+       min-width:min-content;
+    }
+
+    .footer-style ul {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer-style ul li {
+        margin-bottom: 16px;
+    }
+
+}
+
+
+/*-------------------------
+    tablet devices
+-------------------------- */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .header-cad {
+        background-color: rgb(104, 85, 85);
+        width: 100%;
+
+
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    aside {
+
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hide {
+        display: none;
+
+    }
+
+
+    .nav-cad a {
+
+        height: 60px;
+        margin-right: 20px;
+        color: black;
+        padding: 20px 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-cad {
+        display: flex;
+        background: none;
+    }
+
+
+    .View a {
+        display: inline-block;
+
+
+    }
+
+    .header-text h1 {
+        font-size: 20px;
+        margin-left: 450px;
+
+    }
+
+
+    .header-text h3 {
+
+        font-size: 10px;
+        margin-left: 450px;
+        font-weight: 700;
+    }
+
+    .header-text .cad-button {
+        margin-left: 450px;
+    }
+
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem 1.5rem;
+
+    }
+
+
+
+    footer {
+        padding-bottom: 190px;
+
+        margin-bottom: 40px;
+        height: 500px;
+    }
+}
