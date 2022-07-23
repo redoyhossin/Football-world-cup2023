@@ -301,8 +301,8 @@ footer {
     font-size: 40px;
     text-align: center;
     font-weight: 700;
-    padding-top: 100px;
     margin-top: 100px;
+    padding-top: 100px;
 }
 
 
@@ -315,15 +315,14 @@ footer {
 }
 
 .footer-style {
-    margin-top: 50px;
+    margin-top: 60px;
+
 }
 
 ul {
     display: flex;
 
     justify-content: center;
-    justify-items: center;
-
 
 
 }
@@ -332,7 +331,7 @@ ul li {
     font-size: 16px;
     font-weight: 500;
     list-style: none;
-    /* margin-left: 50px; */
+    margin-left: 50px;
     color: white;
 
 }
@@ -366,7 +365,6 @@ social-link
 /* -------------------
 footer section end
 -------------------- */
-
 /*-----------------
  media queries  
  ----------------------*/
